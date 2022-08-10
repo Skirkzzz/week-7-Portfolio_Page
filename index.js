@@ -1,8 +1,34 @@
-// Creates a variable that is called when the HTML file is rendered.
-const answer = require("inquirer");
+// Use of file system to write the new mark-down component
+const fs = require('fs');
+
+
+// Bring in the node file object inquirer
+const inquirer = require("inquirer");
+
+// Creates the Github ReadMe Markdown
+const generateMarkDown = (answer) =>
+
+{
+    const markdown=
+# ${answer.username}
+
+//This code is a command-line tool that generates an HTML page from user input.
+
+## ${answer.location}
+
+//The application prompts the user for information like their name, location, bio, LinkedIn URL, and Git
+
+${answer.bio}
+[LinkedIn] (${answer.LinkedIn})
+[GitHub] (${answer.GitHub})
+
+// Write the markdown to a file
+fs.writeFile("ReadME.md", markdown, (err) => err ? console.error(`writing file failed: ${err}`)) : console.log('The file was successfully generated')
+    
+}
 
 // prompt name, location, bio, LinkedIn URL, and GitHub URL.
-answer.prompt([
+inquirer.prompt([
     {
     type: 'input',
     message: 'what is your name?',
@@ -29,40 +55,7 @@ answer.prompt([
     name: 'GitHub',
     },
 
-]);
-
-then((answer) =>
-answer.confirm === answer.input
-
-
-// Creates the HTML file with template literals that call the input above.
-const renderHTML = (answer) =>
-{
-    const html= `<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <style>
-             body { background-color: rgb(60, 15, 225); }
-            p { color: #fff; font: 18px Arial, sans-serif;}
-            </style>
-    <p>${answer.username}</p>
-    <p>${answer.location}</p>
-    <p>${answer.bio}</p>
-    <p>${answer.LinkedIn}</p>
-    <p>${answer.GitHub}</p>
-
-    </body>
-    </html>`
-
-// writes the HTML file. Has a turnary operator providing a boolean for a correct input or highlighting an error 
-fs.writeFile("index.html", html, (err) =>
-err ? console.error(`Input entered! Your input is ${answer.input}`)
-:console.log('input is not correct')
-);
+]).then((response) =>{
+    generateMarkDown(response);
 }
+);
