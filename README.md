@@ -8,8 +8,6 @@ This code uses HTML and CSS to generate a portfolio webpage.
 
 The web page is asimple portfolio built with HTML and CSS. It is responsive for different size screens using media query.
 
-I have linked to three current portfolios the rest I have left blank and intend to add links in future.
-
 ##Portfolio
 ![Simple Portfolio Page!](/assets/img/Portfolio1PortfolioWebsite.png)
 
