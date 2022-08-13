@@ -1,7 +1,5 @@
 # 08 Project 1: Professional Materials
 
-02 Advanced CSS: Portfolio
-
 ## About This Code
 
 This code uses HTML and CSS to generate a portfolio webpage.
