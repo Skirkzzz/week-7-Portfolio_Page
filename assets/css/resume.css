@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+/* media query for larger screens */
+
+/* color scheme sourced from http://khroma.co/generator/ */
+
+/* brand color palette */
+
+:root {
+  --primary: rgb(202, 151, 39);
+  --secondary: rgb(150, 146, 144);
+  --tertiary: rgba(49, 52, 61, 1);
+  --dark: rgba(28, 29, 33, 1);
+  --light: rgba(24, 24, 27, 0.572);
+}
+
+/* set content highlight color and background */
+
+::selection {
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+html {
+  /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
+  font-size: 50.5%;
+}
+
+body {
+  /* Sans Serif font stack is implemented to help select the best font for each type of computer operating system */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
+  font-size: 3.1rem;
+  line-height: 1.8;
+  background-color: var(--primary);
+  border: solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.625rem;
+  color: var(--dark);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+  /* 4rem = 40px (4 * 10px) */
+  font-size: 4.75rem;
+}
+
+h2 {
+  font-size: 3.8rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+code {
+  /* Monospace font stack is used for our code blocks to make it look more like code */
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
+    monospace;
+}
+
+header {
+  width: 96%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+main {
+  width: 96%;
+  margin: 2rem auto;
+}
+
+address a,
+section a {
+  color: var(--light);
+}
+
+footer {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.class-1 {
+  border: solid 2px var(--dark);
+  display: flex;
+  margin-left: 20vp;
+  padding-left: 20vp;
+}
+
+.class-2 {
+  /* border: solid; */
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.class-3 {
+  border: solid;
+}
+
+.footer {
+  border: solid;
+}
+
+button {
+  font-size: 4.5rem;
+  border-radius: 30px;
+  color: var(--primary);
+  justify-content: center;
+  float: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+button a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.column1of2 {
+  clear: left;
+  width: 50%;
+  padding: 40px;
+  text-align: left;
+  flex-wrap: wrap;
+  color: var(--light);
+}
+
+.column2of2 {
+  flex-wrap: wrap;
+  clear: left;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  color: var(--light);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.right-column {
+  /* float: right; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: after; */
+  width: 50%;
+  color: var(--secondary);
+}
+
+.left-column {
+  /* flex-wrap: wrap; */
+  width: 50%;
+  color: var(--secondary);
+}
+
+.img-profile {
+  width: 300px;
+  height: auto;
+}
+
+.img-portfilio {
+  width: 300px;
+  height: auto;
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    width: 75%;
+  }
+}

@@ -1,66 +1,142 @@
-Unit 07: Project 1
+# 08 Project 1: Professional Materials
 
-## Overview
+02 Advanced CSS: Portfolio
 
-Welcome to Project 1! This is an important step in your full-stack journey as you will now use your newly acquired skills and knowledge to build web application from scratch. With your team, you will conceive and execute a design that solves a real-world problem by integrating data received from multiple server-side API requests.
+## About This Code
 
-Because you will be working collaboratively, you will learn agile development methodologies and implement feature and bug fixes using git branch workflow and pull requests.
+This code uses HTML and CSS to generate a portfolio webpage.
 
-## Key Topics
+The web page is asimple portfolio built with HTML and CSS. It is responsive for different size screens using media query.
 
-The following topics will be covered in this unit:
+I have linked to three current portfolios the rest I have left blank and intend to add links in future.
 
-- [Server-side APIs](https://en.wikipedia.org/wiki/Web_API)
+![Simple Portfolio Page!](./assets/img/Portfolio1PortfolioWebsite.png)
 
-- [Git branching workflow](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
+## Links To Repository
 
-- [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
+- The URL of the deployed application.
 
-## Learning Objectives
+- https://skirkzzz.github.io/week-7-Portfolio_Page/
+- https://github.com/Skirkzzz/week-7-Portfolio_Page
 
-You will be employer-ready if you are able to:
+## Homework Requirements
 
-- Speak technically about a feature you implemented in your project
+- Updated portfolio featuring Project 1 and two exemplary homework assignments.
 
-- Explain and execute git branching workflow in a collaborative project
+- Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
 
-- Resolve merge conflicts
+- Updated resume
 
-- Explain agile software development
+- Updated LinkedIn profile
 
-- Design, build, and deploy a client-side web application using GitHub Pages
+## Instructions
 
-- Prepare a professional presentation and repository README for your project
+1. [Updated Portfolio](#updated-portfolio)
 
-## Homework
+2. [Updated GitHub Profile](#updated-github-profile)
 
-With your team, you'll conceive and execute a design that solves a real-world problem by integrating data received from multiple server-side API requests. You will also learn about agile development methodologies to help you work collaboratively. You will implement feature and bug fixes using git branch workflow and pull requests.
+3. [Updated Resume](#updated-resume)
 
-You will write your own user stories and acceptance criteria in GitHub Issues to help your team stay on track with the project. Using GitHub Project as a means to track the status of your project tasks will help you understand the benefits of Kanban boards.
+4. [Updated LinkedIn](#updated-linkedin)
 
-## Career Connection
+## Updated Portfolio
 
-For more information about career services, including coding milestones, demo days, technical toolkits, workshops, and additional resources, visit the [career services website](https://careernetwork.2u.com/?utm_medium=Academics&utm_source=boot_camp/).
+💁 Need help updating your Portfolio? Check out the [career services milestone resources for online presence](https://mycareerspot.org/onlinepresence).
 
-## Heads-Up
+Your updated portfolio should:
 
-In the next unit, you'll continue to work on your group projects. You'll end the week by presenting your project to your class. Once your project is complete, you'll want to update your professional materials and add your new project to your portfolio.
+1. Display your contact information. If you don't want to share your personal email or phone number, use a separate email that you will only use for coding, also known as a developer email, and/or a call forwarding service, such as [Google Voice](https://voice.google.com/).
 
-## Resources
+2. Have links to your GitHub profile and LinkedIn profile
 
-Here are some additional resources to help solidify the topics covered in this unit.
+3. Have a link to a downloadable PDF of your resume
 
-### Full-Stack Blog Posts
+4. Display at least 2 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
 
-Check out the [Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/) for additional resources, like walkthroughs, articles, and installation guides.
+   - Project title
 
-- 📖 [API Resources](https://coding-boot-camp.github.io/full-stack/apis/api-resources)
+   - Link to the deployed version
 
-### General
+   - Link to the GitHub repository
 
-Refer to these resources for additional information about topics covered in this unit.
+   - Screenshot of the deployed application
 
-- 📖 [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial/getting_started)
+5. Have a polished, mobile-responsive user interface.
+
+### Design
+
+Unfortunately, this is where it gets a little bit subjective. Your site should look
+"polished." Here are a few guidelines on what that means:
+
+- Mobile-first design
+
+- Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
+
+- Make sure the font size is large enough to read, and that the colors don't cause eye strain.
+
+## Updated GitHub Profile
+
+Employers (and potential collaborators) _will_ look at your GitHub profile, so put your best face forward.
+
+Your GitHub profile must contain at least the following items:
+
+1. Profile picture or avatar
+
+- A photo or an avatar other than the default Github identicon. (a semi-professional to professional photo or an avatar photo are preferred)
+
+2. Biography
+
+3. Email address. If you don't want to share your personal email or phone number, use a developer email.
+
+4. Link to your deployed portfolio
+
+5. At least 2 pinned repositories:
+
+   - Navigate to [GitHub](https://github.com/) and go to your profile.
+
+   - Click "Customize your pins"
+
+   - Click the checkboxes for your project and 2-3 homework assignments that you would like to share
+
+6. Follow a few of your classmates and/or other developers. They are the beginning of your professional network and being a developer is as much about being a part of the community as it is writing code.
+
+7. README files. Every pinned project should contain a README file with:
+
+   - Title of app
+
+   - Live link to deployed app
+
+   - List of technologies used
+
+   - 1-2 sentences explaining what the app is
+
+   - 2-3 Screenshots / gifs of the app
+
+   - License (usually MIT)
+
+   - Contact information for you and any collaborators
+
+8. Commit history. Every pinned repository should have at least 20 commits.
+
+## Updated Resume
+
+💁 Need help building a resume? Check out the [career services milestone resources](https://mycareerspot.org/resume).
+
+Submit a clear, concise, and compelling resume, tailored to the type of job you’re looking for.
+
+Your resume should include:
+
+- a heading with your name, phone number, professional email address, links to LinkedIn, portfolio and GitHub. If you don't want to share your personal email or phone number, use a separate email that you will only use for coding, also known as a developer email, and/or a call forwarding service, such as [Google Voice](https://voice.google.com/).
+
+- a technical skills section, with all programming languages and technologies listed
+
+- 3 of your strongest projects/homework assignments with brief description, languages used, and URL
+
+## Updated LinkedIn
+
+💁 Need help updating your LinkedIn? Check out the [career services milestone resources for online presence](https://mycareerspot.org/onlinepresence).
+
+Update your LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github and portfolio.
 
 ---
 
