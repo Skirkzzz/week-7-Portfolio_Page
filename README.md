@@ -51,3 +51,6 @@ As part of this update I have completed the following;
 - Updated LinkedIn profile
 
 ![Simple Portfolio Page!](/assets/img/RepositoryinLinkedin.png)
+
+Licence
+MIT
